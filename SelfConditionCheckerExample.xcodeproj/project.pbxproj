@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE589B4626722C6B009FFE1D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = DE589B4526722C6B009FFE1D /* ComposableArchitecture */; };
+		DE847B11266C9B75001A6E25 /* SelfConditionCheckerExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE847B10266C9B75001A6E25 /* SelfConditionCheckerExampleApp.swift */; };
+		DE847B13266C9B75001A6E25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE847B12266C9B75001A6E25 /* ContentView.swift */; };
+		DE847B15266C9B78001A6E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE847B14266C9B78001A6E25 /* Assets.xcassets */; };
+		DE847B18266C9B78001A6E25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE847B17266C9B78001A6E25 /* Preview Assets.xcassets */; };
+		DE847B23266C9B78001A6E25 /* SelfConditionCheckerExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE847B22266C9B78001A6E25 /* SelfConditionCheckerExampleTests.swift */; };
+		DE847B2E266C9B78001A6E25 /* SelfConditionCheckerExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE847B2D266C9B78001A6E25 /* SelfConditionCheckerExampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE847B1F266C9B78001A6E25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE847B05266C9B75001A6E25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE847B0C266C9B75001A6E25;
+			remoteInfo = SelfConditionCheckerExample;
+		};
+		DE847B2A266C9B78001A6E25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE847B05266C9B75001A6E25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE847B0C266C9B75001A6E25;
+			remoteInfo = SelfConditionCheckerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE847B0D266C9B75001A6E25 /* SelfConditionCheckerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfConditionCheckerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE847B10266C9B75001A6E25 /* SelfConditionCheckerExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConditionCheckerExampleApp.swift; sourceTree = "<group>"; };
+		DE847B12266C9B75001A6E25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE847B14266C9B78001A6E25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE847B17266C9B78001A6E25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE847B19266C9B78001A6E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE847B1E266C9B78001A6E25 /* SelfConditionCheckerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfConditionCheckerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE847B22266C9B78001A6E25 /* SelfConditionCheckerExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConditionCheckerExampleTests.swift; sourceTree = "<group>"; };
+		DE847B24266C9B78001A6E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE847B29266C9B78001A6E25 /* SelfConditionCheckerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfConditionCheckerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE847B2D266C9B78001A6E25 /* SelfConditionCheckerExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConditionCheckerExampleUITests.swift; sourceTree = "<group>"; };
+		DE847B2F266C9B78001A6E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE847B0A266C9B75001A6E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE589B4626722C6B009FFE1D /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE847B1B266C9B78001A6E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE847B26266C9B78001A6E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE847B04266C9B75001A6E25 = {
+			isa = PBXGroup;
+			children = (
+				DE847B0F266C9B75001A6E25 /* SelfConditionCheckerExample */,
+				DE847B21266C9B78001A6E25 /* SelfConditionCheckerExampleTests */,
+				DE847B2C266C9B78001A6E25 /* SelfConditionCheckerExampleUITests */,
+				DE847B0E266C9B75001A6E25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE847B0E266C9B75001A6E25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE847B0D266C9B75001A6E25 /* SelfConditionCheckerExample.app */,
+				DE847B1E266C9B78001A6E25 /* SelfConditionCheckerExampleTests.xctest */,
+				DE847B29266C9B78001A6E25 /* SelfConditionCheckerExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE847B0F266C9B75001A6E25 /* SelfConditionCheckerExample */ = {
+			isa = PBXGroup;
+			children = (
+				DE847B10266C9B75001A6E25 /* SelfConditionCheckerExampleApp.swift */,
+				DE847B12266C9B75001A6E25 /* ContentView.swift */,
+				DE847B14266C9B78001A6E25 /* Assets.xcassets */,
+				DE847B19266C9B78001A6E25 /* Info.plist */,
+				DE847B16266C9B78001A6E25 /* Preview Content */,
+			);
+			path = SelfConditionCheckerExample;
+			sourceTree = "<group>";
+		};
+		DE847B16266C9B78001A6E25 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE847B17266C9B78001A6E25 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE847B21266C9B78001A6E25 /* SelfConditionCheckerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE847B22266C9B78001A6E25 /* SelfConditionCheckerExampleTests.swift */,
+				DE847B24266C9B78001A6E25 /* Info.plist */,
+			);
+			path = SelfConditionCheckerExampleTests;
+			sourceTree = "<group>";
+		};
+		DE847B2C266C9B78001A6E25 /* SelfConditionCheckerExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE847B2D266C9B78001A6E25 /* SelfConditionCheckerExampleUITests.swift */,
+				DE847B2F266C9B78001A6E25 /* Info.plist */,
+			);
+			path = SelfConditionCheckerExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE847B0C266C9B75001A6E25 /* SelfConditionCheckerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE847B32266C9B78001A6E25 /* Build configuration list for PBXNativeTarget "SelfConditionCheckerExample" */;
+			buildPhases = (
+				DE847B09266C9B75001A6E25 /* Sources */,
+				DE847B0A266C9B75001A6E25 /* Frameworks */,
+				DE847B0B266C9B75001A6E25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfConditionCheckerExample;
+			packageProductDependencies = (
+				DE589B4526722C6B009FFE1D /* ComposableArchitecture */,
+			);
+			productName = SelfConditionCheckerExample;
+			productReference = DE847B0D266C9B75001A6E25 /* SelfConditionCheckerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE847B1D266C9B78001A6E25 /* SelfConditionCheckerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE847B35266C9B78001A6E25 /* Build configuration list for PBXNativeTarget "SelfConditionCheckerExampleTests" */;
+			buildPhases = (
+				DE847B1A266C9B78001A6E25 /* Sources */,
+				DE847B1B266C9B78001A6E25 /* Frameworks */,
+				DE847B1C266C9B78001A6E25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE847B20266C9B78001A6E25 /* PBXTargetDependency */,
+			);
+			name = SelfConditionCheckerExampleTests;
+			productName = SelfConditionCheckerExampleTests;
+			productReference = DE847B1E266C9B78001A6E25 /* SelfConditionCheckerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE847B28266C9B78001A6E25 /* SelfConditionCheckerExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE847B38266C9B78001A6E25 /* Build configuration list for PBXNativeTarget "SelfConditionCheckerExampleUITests" */;
+			buildPhases = (
+				DE847B25266C9B78001A6E25 /* Sources */,
+				DE847B26266C9B78001A6E25 /* Frameworks */,
+				DE847B27266C9B78001A6E25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE847B2B266C9B78001A6E25 /* PBXTargetDependency */,
+			);
+			name = SelfConditionCheckerExampleUITests;
+			productName = SelfConditionCheckerExampleUITests;
+			productReference = DE847B29266C9B78001A6E25 /* SelfConditionCheckerExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE847B05266C9B75001A6E25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DE847B0C266C9B75001A6E25 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					DE847B1D266C9B78001A6E25 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = DE847B0C266C9B75001A6E25;
+					};
+					DE847B28266C9B78001A6E25 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = DE847B0C266C9B75001A6E25;
+					};
+				};
+			};
+			buildConfigurationList = DE847B08266C9B75001A6E25 /* Build configuration list for PBXProject "SelfConditionCheckerExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE847B04266C9B75001A6E25;
+			packageReferences = (
+				DE589B4426722C6B009FFE1D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
+			productRefGroup = DE847B0E266C9B75001A6E25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE847B0C266C9B75001A6E25 /* SelfConditionCheckerExample */,
+				DE847B1D266C9B78001A6E25 /* SelfConditionCheckerExampleTests */,
+				DE847B28266C9B78001A6E25 /* SelfConditionCheckerExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE847B0B266C9B75001A6E25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE847B18266C9B78001A6E25 /* Preview Assets.xcassets in Resources */,
+				DE847B15266C9B78001A6E25 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE847B1C266C9B78001A6E25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE847B27266C9B78001A6E25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE847B09266C9B75001A6E25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE847B13266C9B75001A6E25 /* ContentView.swift in Sources */,
+				DE847B11266C9B75001A6E25 /* SelfConditionCheckerExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE847B1A266C9B78001A6E25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE847B23266C9B78001A6E25 /* SelfConditionCheckerExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE847B25266C9B78001A6E25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE847B2E266C9B78001A6E25 /* SelfConditionCheckerExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE847B20266C9B78001A6E25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE847B0C266C9B75001A6E25 /* SelfConditionCheckerExample */;
+			targetProxy = DE847B1F266C9B78001A6E25 /* PBXContainerItemProxy */;
+		};
+		DE847B2B266C9B78001A6E25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE847B0C266C9B75001A6E25 /* SelfConditionCheckerExample */;
+			targetProxy = DE847B2A266C9B78001A6E25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE847B30266C9B78001A6E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE847B31266C9B78001A6E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE847B33266C9B78001A6E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SelfConditionCheckerExample/Preview Content\"";
+				DEVELOPMENT_TEAM = S5BF5553KY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SelfConditionCheckerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.just1factory.SelfConditionCheckerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE847B34266C9B78001A6E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SelfConditionCheckerExample/Preview Content\"";
+				DEVELOPMENT_TEAM = S5BF5553KY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SelfConditionCheckerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.just1factory.SelfConditionCheckerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE847B36266C9B78001A6E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5BF5553KY;
+				INFOPLIST_FILE = SelfConditionCheckerExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.just1factory.SelfConditionCheckerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfConditionCheckerExample.app/SelfConditionCheckerExample";
+			};
+			name = Debug;
+		};
+		DE847B37266C9B78001A6E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5BF5553KY;
+				INFOPLIST_FILE = SelfConditionCheckerExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.just1factory.SelfConditionCheckerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfConditionCheckerExample.app/SelfConditionCheckerExample";
+			};
+			name = Release;
+		};
+		DE847B39266C9B78001A6E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5BF5553KY;
+				INFOPLIST_FILE = SelfConditionCheckerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.just1factory.SelfConditionCheckerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SelfConditionCheckerExample;
+			};
+			name = Debug;
+		};
+		DE847B3A266C9B78001A6E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5BF5553KY;
+				INFOPLIST_FILE = SelfConditionCheckerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.just1factory.SelfConditionCheckerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SelfConditionCheckerExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE847B08266C9B75001A6E25 /* Build configuration list for PBXProject "SelfConditionCheckerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE847B30266C9B78001A6E25 /* Debug */,
+				DE847B31266C9B78001A6E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE847B32266C9B78001A6E25 /* Build configuration list for PBXNativeTarget "SelfConditionCheckerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE847B33266C9B78001A6E25 /* Debug */,
+				DE847B34266C9B78001A6E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE847B35266C9B78001A6E25 /* Build configuration list for PBXNativeTarget "SelfConditionCheckerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE847B36266C9B78001A6E25 /* Debug */,
+				DE847B37266C9B78001A6E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE847B38266C9B78001A6E25 /* Build configuration list for PBXNativeTarget "SelfConditionCheckerExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE847B39266C9B78001A6E25 /* Debug */,
+				DE847B3A266C9B78001A6E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE589B4426722C6B009FFE1D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE589B4526722C6B009FFE1D /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE589B4426722C6B009FFE1D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DE847B05266C9B75001A6E25 /* Project object */;
+}
