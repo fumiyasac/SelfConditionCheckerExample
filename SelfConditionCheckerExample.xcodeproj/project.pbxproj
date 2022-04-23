@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE589B4626722C6B009FFE1D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = DE589B4526722C6B009FFE1D /* ComposableArchitecture */; };
 		DE847B11266C9B75001A6E25 /* SelfConditionCheckerExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE847B10266C9B75001A6E25 /* SelfConditionCheckerExampleApp.swift */; };
 		DE847B13266C9B75001A6E25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE847B12266C9B75001A6E25 /* ContentView.swift */; };
 		DE847B15266C9B78001A6E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE847B14266C9B78001A6E25 /* Assets.xcassets */; };
@@ -53,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE589B4626722C6B009FFE1D /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +147,6 @@
 			);
 			name = SelfConditionCheckerExample;
 			packageProductDependencies = (
-				DE589B4526722C6B009FFE1D /* ComposableArchitecture */,
 			);
 			productName = SelfConditionCheckerExample;
 			productReference = DE847B0D266C9B75001A6E25 /* SelfConditionCheckerExample.app */;
@@ -223,7 +220,6 @@
 			);
 			mainGroup = DE847B04266C9B75001A6E25;
 			packageReferences = (
-				DE589B4426722C6B009FFE1D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 			);
 			productRefGroup = DE847B0E266C9B75001A6E25 /* Products */;
 			projectDirPath = "";
@@ -588,25 +584,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		DE589B4426722C6B009FFE1D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.18.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		DE589B4526722C6B009FFE1D /* ComposableArchitecture */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DE589B4426722C6B009FFE1D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
-			productName = ComposableArchitecture;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DE847B05266C9B75001A6E25 /* Project object */;
 }
