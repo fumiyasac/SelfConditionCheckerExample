@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE1833FE292F68FB00E3E885 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = DE1833FD292F68FB00E3E885 /* ComposableArchitecture */; };
+		DE183400292F68FC00E3E885 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = DE1833FF292F68FC00E3E885 /* Dependencies */; };
 		DE847B11266C9B75001A6E25 /* SelfConditionCheckerExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE847B10266C9B75001A6E25 /* SelfConditionCheckerExampleApp.swift */; };
 		DE847B13266C9B75001A6E25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE847B12266C9B75001A6E25 /* ContentView.swift */; };
 		DE847B15266C9B78001A6E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE847B14266C9B78001A6E25 /* Assets.xcassets */; };
 		DE847B18266C9B78001A6E25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE847B17266C9B78001A6E25 /* Preview Assets.xcassets */; };
 		DE847B23266C9B78001A6E25 /* SelfConditionCheckerExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE847B22266C9B78001A6E25 /* SelfConditionCheckerExampleTests.swift */; };
 		DE847B2E266C9B78001A6E25 /* SelfConditionCheckerExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE847B2D266C9B78001A6E25 /* SelfConditionCheckerExampleUITests.swift */; };
-		DEB21F9628144B9D008FF054 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = DEB21F9528144B9D008FF054 /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEB21F9628144B9D008FF054 /* ComposableArchitecture in Frameworks */,
+				DE1833FE292F68FB00E3E885 /* ComposableArchitecture in Frameworks */,
+				DE183400292F68FC00E3E885 /* Dependencies in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +151,8 @@
 			);
 			name = SelfConditionCheckerExample;
 			packageProductDependencies = (
-				DEB21F9528144B9D008FF054 /* ComposableArchitecture */,
+				DE1833FD292F68FB00E3E885 /* ComposableArchitecture */,
+				DE1833FF292F68FC00E3E885 /* Dependencies */,
 			);
 			productName = SelfConditionCheckerExample;
 			productReference = DE847B0D266C9B75001A6E25 /* SelfConditionCheckerExample.app */;
@@ -223,7 +226,7 @@
 			);
 			mainGroup = DE847B04266C9B75001A6E25;
 			packageReferences = (
-				DEB21F9428144B9D008FF054 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				DE1833FC292F68FB00E3E885 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 			);
 			productRefGroup = DE847B0E266C9B75001A6E25 /* Products */;
 			projectDirPath = "";
@@ -355,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -410,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -430,7 +433,7 @@
 				DEVELOPMENT_TEAM = S5BF5553KY;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SelfConditionCheckerExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +455,7 @@
 				DEVELOPMENT_TEAM = S5BF5553KY;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SelfConditionCheckerExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -590,21 +593,26 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DEB21F9428144B9D008FF054 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+		DE1833FC292F68FB00E3E885 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.9.0;
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.47.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		DEB21F9528144B9D008FF054 /* ComposableArchitecture */ = {
+		DE1833FD292F68FB00E3E885 /* ComposableArchitecture */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DEB21F9428144B9D008FF054 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			package = DE1833FC292F68FB00E3E885 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
 			productName = ComposableArchitecture;
+		};
+		DE1833FF292F68FC00E3E885 /* Dependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE1833FC292F68FB00E3E885 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = Dependencies;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
